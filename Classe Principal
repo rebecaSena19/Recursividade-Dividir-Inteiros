@@ -1,0 +1,17 @@
+package view;
+
+import Controller.DividiCalc;
+
+public class Principal {
+
+public static void main( String[] args){
+
+DividiCalc calc = new DividiCalc();
+
+int num = 2;
+
+double resultado = (calc.Calculo(num));
+
+System.out.println(resultado);
+}
+}
