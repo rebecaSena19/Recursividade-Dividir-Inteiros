@@ -1,0 +1,19 @@
+package Controller;
+
+public class DividiCalc {
+
+public DividiCalc() {
+
+super();
+}
+//ponto de parada
+public double Calculo(double num) {
+if (num == 1) {
+return 1;
+}else {
+//função do termo anterior
+
+return (1/num)+ Calculo(num - 1 );
+}
+}
+}
